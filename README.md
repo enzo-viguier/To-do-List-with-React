@@ -1,8 +1,21 @@
-²# React + Vite
+# To-do List with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+C'est un projet de liste de tâches réalisé avec React et Vite. Il permet d'ajouter et de supprimer des tâches comme terminées.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+1. Cloner le projet
+2. Installer les dépendances avec `npm install`
+3. Lancer le projet avec `npm run dev`
+
+## Build
+
+Pour générer une version de production, il suffit de lancer la commande `npm run build`.
+Celà va générer un dossier `dist` contenant les fichiers nécessaires pour le déploiement.
+
+Pour lancer le projet présent dans dist il suffit :
+1. d'installer un serveur web comme `serve` avec la commande `npm install -g serve`
+2. de lancer le serveur avec `serve -s dist`
+3. d'ouvrir l'adresse `http://localhost:5000` dans un navigateur
